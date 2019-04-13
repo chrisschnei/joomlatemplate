@@ -33,6 +33,7 @@ h2 {
 select, textarea, input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"], .uneditable-input {
     line-height: 1 !important;
     padding: 8px 6px;
+    width: 100%;
     height: auto !important;
     background-color: #f7f7f7;
     border: 1px solid #d4d4d4;
@@ -48,6 +49,7 @@ select, textarea, input[type="text"], input[type="password"], input[type="dateti
 
 .btn {
     padding: 7px 25px;
+    margin-top: 60px;
     font-size: 13px !important;
     line-height: 17px;
     color: #fff;
@@ -88,10 +90,18 @@ select, textarea, input[type="text"], input[type="password"], input[type="dateti
 		text-align: center;
 		padding-top: 16px;
 	}
+
 	.content {
 		width:100%;
-    padding-left:12%;
-    padding-right:12%;
+    		padding-left:12%;
+    		padding-right:12%;
+		float: left;
+	}
+
+	.contact {
+		width:100%;
+    		padding-left:12%;
+    		padding-right:12%;
 		float: left;
 	}
 
