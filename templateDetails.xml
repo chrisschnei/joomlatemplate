@@ -9,7 +9,7 @@
   <authorEmail></authorEmail>
   <authorUrl>https://domain.com</authorUrl>
   <version>1.0.0</version>
-  <description>Teplatename Template</description>
+  <description>Templatename Template</description>
   <files> 
     <folder>css</folder>
     <folder>images</folder>

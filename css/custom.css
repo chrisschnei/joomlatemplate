@@ -332,7 +332,6 @@ div > div > div > p.fa-2x {
 	.footer {
 		position:absolute;
 		width:100%;
-		margin-top:5%;
 		padding-top:45px;
 		padding-left:5%;
 		height:100px;
@@ -504,4 +503,54 @@ div > div > div > p.fa-2x {
 	.footerelement > div > div > p > a:link, .footerelement > div > div > p > a:visited {
 		color: white;
 	}
+}
+
+#contact {
+        padding:20px 0;
+}
+.input-80 {
+        width: 88%;
+}
+#formResponse {
+        font-weight: bold;
+        background-color: #FCF8E3;
+        border-radius: 5px;
+        padding: 10px;
+        color: #5C441B;
+}
+.formUnfilled {
+        display: none;
+}
+label.error {
+  color: red;
+  padding: 2px 0;
+  margin-top: 2px;
+  margin-bottom: -10px;
+}
+.warning {
+        color: red;
+}
+/* Manual Code  */
+.form-horizontal .control-label {
+        width: 100%;
+        max-width: 100%;
+        text-align: left;
+}
+.form-horizontal .control-label {
+        text-align: left;
+}
+.form-horizontal .controls {
+        margin-left:0px;
+}
+input[type="text"]{
+        height: 25px;
+}
+input[type="email"]{
+        height: 25px;
+}
+select{
+        height: 35px;
+}
+textarea {
+        height: 120px;
 }
