@@ -5,10 +5,10 @@
   <name>templatename</name>
   <title>Teplatename</title>
   <creationDate>19.03.16</creationDate>
-  <author>Teplatename</author>
+  <author>Templatename</author>
   <authorEmail></authorEmail>
   <authorUrl>https://domain.com</authorUrl>
-  <version>1.0.0</version>
+  <version>0.0.2</version>
   <description>Templatename Template</description>
   <files> 
     <folder>css</folder>

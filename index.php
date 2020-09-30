@@ -7,6 +7,8 @@
 	<link rel="stylesheet" href="/templates/asana24/css/bootstrap.css" type="text/css" />
 	<link rel="stylesheet" href="/templates/asana24/css/font-awesome.min.css" type="text/css" />
 	<link rel="stylesheet" href="/templates/asana24/css/custom.css" type="text/css" />
+	<script id="Cookiebot" src="https://consent.cookiebot.com/uc.js" data-cbid="fe55f0cf-7949-40f4-826a-bdc04bbc6b65" data-blockingmode="auto" type="text/javascript"></script>
+	<script id="CookieDeclaration" src="https://consent.cookiebot.com/fe55f0cf-7949-40f4-826a-bdc04bbc6b65/cd.js" type="text/javascript" async></script>
 </head>
 
 <body>
