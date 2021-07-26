@@ -3,6 +3,18 @@
 
 <head>
 	<jdoc:include type="head" />
+
+<?php
+        use Joomla\CMS\Factory;
+        $doc = Factory::getDocument();
+
+        // Unset unwanted jQuery JavaScript
+        unset($doc->_scripts[$doc->baseurl . '/media/jui/js/jquery.min.js']);
+        unset($doc->_scripts[$doc->baseurl . '/media/jui/js/jquery-noconflict.js']);
+        unset($doc->_scripts[$doc->baseurl . '/media/jui/js/jquery-migrate.min.js']);
+        unset($doc->_scripts[$doc->baseurl . '/media/system/js/caption.js']);
+?>
+
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="/templates/asana24/css/bootstrap.css" type="text/css" />
 	<link rel="stylesheet" href="/templates/asana24/css/font-awesome.min.css" type="text/css" />
