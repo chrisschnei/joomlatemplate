@@ -3991,12 +3991,14 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .navbar {
   position: relative;
   min-height: 10px;
-  /*margin-bottom: 20px;*/
 }
 @media (min-width: 768px) {
   .navbar {
+    background-color: #21409a;
     border-radius: 4px;
-    margin-top: -80px;
+  }
+  .navbar-toggler-right {
+    display: none;
   }
 }
 @media (min-width: 768px) {

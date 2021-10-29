@@ -5,8 +5,8 @@
 	<jdoc:include type="head" />
 
 <?php
-        use Joomla\CMS\Factory;
-        $doc = Factory::getDocument();
+	use Joomla\CMS\Factory;
+	$doc = Factory::getDocument();
 
         // Unset unwanted jQuery JavaScript
         unset($doc->_scripts[$doc->baseurl . '/media/jui/js/jquery.min.js']);
@@ -32,8 +32,6 @@
 			<jdoc:include type="modules" name="logo" style="xhtml" />
 		</div>
 	</div>
-	<div id="banner">
-	</div>
 <div>
 		<nav style="width:100%" class="navbar navbar-default">
 		  	<div class="navbar-header">
@@ -55,7 +53,7 @@
 <div id="rahmen">
 	<div class="container">
 		<div class="image left right">
-			<jdoc:include type="modules" name="image" style="xhtml" />
+			<jdoc:include type="modules" name="imageslider" style="xhtml" />
 		</div>
 			<jdoc:include type="component" />
 		<div class="anruf">

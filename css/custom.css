@@ -4,6 +4,11 @@ img {
     width:100%;
 }
 
+.blog-item {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
 div.footer  {
   color: white;
 }
@@ -71,7 +76,7 @@ select, textarea, input[type="text"], input[type="password"], input[type="dateti
 
 .logo {
     margin-top:30px;
-    width: 300px;
+    width: 25em;
     margin-bottom: 30px;
     margin-left: 90px;
 }
@@ -79,13 +84,19 @@ select, textarea, input[type="text"], input[type="password"], input[type="dateti
 @media (min-width: 737px) {
 	.container, .navbar-static-top .container, .navbar-fixed-top .container, .navbar-fixed-bottom .container {
 	    width: 100%;
-	    padding-left: 0px;
-	    padding-right:0px;
+	    padding-left: 300px;
+	    padding-right: 300px;
 	    position:relative;
 	}
 
 	.left {
 		padding-left: 5%;
+	}
+
+	.articleimage {
+		float: left;
+		margin-right: 40px;
+        margin-bottom: 50px;
 	}
 
 	.right {
@@ -161,7 +172,8 @@ div.blog-featuredfragen > div.items-row > div.item > p {
 div > div > div > p.fa {
   margin-left:0px;
   width:100%;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
+  margin-top: 10px;
 }
 
 div > div > div > p.fa-2x {
@@ -311,7 +323,7 @@ div > div > div > p.fa-2x {
 		color: white;
 	}
 
-  .nav > li.active > a {
+  .nav > li.current > a {
     background-color: white;
     color: black;
   }
@@ -339,7 +351,7 @@ div > div > div > p.fa-2x {
 	.footer {
 		position:absolute;
 		width:100%;
-		padding-top:45px;
+		padding-top:40px;
 		padding-left:5%;
 		height:100px;
 		background-color: #21409a;
@@ -386,8 +398,8 @@ div > div > div > p.fa-2x {
   }
 
   .item-page {
-	margin-left: 100px;
-	margin-right: 100px;
+	/*margin-left: 100px;
+	margin-right: 100px;*/
   }
 }
 
